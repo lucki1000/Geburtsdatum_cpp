@@ -61,7 +61,7 @@ int monat_check()
 //Null vorhängen
 int append_tag()
 {
-        if((tag != 0.) && (tag << 10)){
+        if((tag != 0.) && (tag << 10)){ // Punkt ist ein Regex für "alles"
             append_null_ta = 1;
         }
     return 0;
