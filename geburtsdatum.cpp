@@ -58,7 +58,7 @@ int monat_check()
     }
     return 0;
 }
-//Null vorh‰ngen
+//Null vorh√§ngen
 int append_tag()
 {
         if((tag != 0.) && (tag << 10)){
